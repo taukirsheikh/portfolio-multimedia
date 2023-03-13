@@ -11,7 +11,9 @@ const Section = styled.div`
 `;
 
 const Container = styled.div`
-  width: 1400px;
+  margin-left: 5%;
+  margin-right:5%;
+  width: 1200px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -73,7 +75,7 @@ const Navbar = () => {
     <Section>
       <Container>
         <Links>
-          <Logo src="./img/logo.png" />
+          {/* <Logo src="./img/logo.png" /> */}
           <List>
             <ListItem>Home</ListItem>
             <ListItem>Studio</ListItem>

@@ -33,8 +33,8 @@ const Development = () => {
         </Suspense>
       </Canvas>
       <Desc>
-        We design products with a strong focus on both world class design and
-        ensuring your product is a market success.
+        i design and code with a strong focus on both world class design and
+        ensuring the results is a market success.
       </Desc>
     </>
   );

@@ -8,8 +8,8 @@ const data = [
   "Web Design",
   "Development",
   "Illustration",
-  "Product Design",
-  "Social Media",
+  "DB Design",
+  "Full Stack",
 ];
 
 const Section = styled.div`
@@ -24,7 +24,10 @@ const Section = styled.div`
 `;
 
 const Container = styled.div`
-  width: 1400px;
+  width: fit-content;
+  /* background-color: red; */
+  width: 90%;
+  /* width:fit-content; */
   display: flex;
   justify-content: space-between;
 

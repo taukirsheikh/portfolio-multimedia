@@ -93,16 +93,17 @@ const Who = () => {
           </Canvas>
         </Left>
         <Right>
-          <Title>Think outside the square space</Title>
+          <Title>Thinkinking outside the square space</Title>
           <WhatWeDo>
             <Line src="./img/line.png" />
-            <Subtitle>Who we Are</Subtitle>
+            <Subtitle>Who am I</Subtitle>
           </WhatWeDo>
           <Desc>
-            a creative group of designers and developers with a passion for the
-            arts.
+            a creative person in design and development with a passion for coding.
           </Desc>
-          <Button>See our works</Button>
+         <a href="https://github.com/taukirsheikh" target="_blank">
+           <Button>See my works</Button>
+          </a>
         </Right>
       </Container>
     </Section>

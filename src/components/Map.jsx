@@ -36,27 +36,27 @@ const Map = () => {
         dy={-30}
         connectorProps={{
           stroke: "white",
-          strokeWidth: 2,
+          strokeWidth: 0,
           strokeLinecap: "round"
         }}
       >
-        <text x="-8" textAnchor="end" alignmentBaseline="middle" fill="white">
-          {"Paris"}
-        </text>
+        {/* <text x="-8" textAnchor="end" alignmentBaseline="middle" fill="white">
+          {"Siraha"}
+        </text> */}
       </Annotation>
       <Annotation
         subject={[21.01178, 52.22977]}
         dx={-90}
         dy={-30}
         connectorProps={{
-          stroke: "white",
-          strokeWidth: 2,
+          // stroke: "white",
+          strokeWidth: 0,
           strokeLinecap: "round"
         }}
       >
-        <text x="-8" textAnchor="end" alignmentBaseline="middle" fill="white">
-          {"Warsaw"}
-        </text>
+        {/* <text x="-8" textAnchor="end" alignmentBaseline="middle" fill="white">
+          {"Saptari"}
+        </text> */}
       </Annotation>
     </ComposableMap>
   );

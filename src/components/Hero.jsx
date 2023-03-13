@@ -5,7 +5,10 @@ import { Canvas } from "@react-three/fiber";
 import { OrbitControls, Sphere, MeshDistortMaterial } from "@react-three/drei";
 
 const Section = styled.div`
+  margin-left:25%;
+  margin-right:25%;
   height: 100vh;
+  /* width: 9vh; */
   scroll-snap-align: center;
   display: flex;
   flex-direction: column;
@@ -20,8 +23,10 @@ const Section = styled.div`
 const Container = styled.div`
   height: 100%;
   scroll-snap-align: center;
-  width: 1400px;
+  width: fit-content;
   display: flex;
+  /* background-color: red; */
+
   justify-content: space-between;
 
   @media only screen and (max-width: 768px) {
@@ -97,8 +102,9 @@ const Right = styled.div`
 `;
 
 const Img = styled.img`
-  width: 800px;
-  height: 600px;
+  width: 700px;
+  height: 500px;
+  border-radius: 50%;
   object-fit: contain;
   position: absolute;
   top: 0;
@@ -126,15 +132,17 @@ const Hero = () => {
       <Navbar />
       <Container>
         <Left>
-          <Title>Think. Make. Solve.</Title>
+          <Title>MD Taukir Sheikh</Title>
           <WhatWeDo>
             <Line src="./img/line.png" />
-            <Subtitle>What we Do</Subtitle>
+            <Subtitle>What I Do</Subtitle>
           </WhatWeDo>
           <Desc>
-            we enjoy creating delightful, human-centered digital experiences.
+            I enjoy studying Multimedia
           </Desc>
+          <a href="https://github.com/taukirsheikh" target="_blank">
           <Button>Learn More</Button>
+          </a>
         </Left>
         <Right>
           <Canvas>
@@ -152,7 +160,7 @@ const Hero = () => {
               </Sphere>
             </Suspense>
           </Canvas>
-          <Img src="./img/moon.png" />
+          <Img src="./img/me.jpg" />
         </Right>
       </Container>
     </Section>
